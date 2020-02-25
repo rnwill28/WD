@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <link rel="stylesheet" type="text/css" href="../css/style2.css">
+ <title>Login Page</title>
+</head>
+<h1>Pusa ni Yorme</h1>
+
+ <body>
+
+  <img src="../images/Cat03.jpg" alt="Pusa ni Yorme width="250" height="250" class="img"><br>    
+
+  <form class="input">
+  Username:
+     <input type="text" name="Username" placeholder="Username" class="css-input" id="userName" /><br>
+  Password :
+     <input type="password" name="Password" placeholder="Password" class="css-input" id="password"/>
+  </form>
+     <input type="submit" name="login" value="Login" onclick="valUser()"/>
+
+  </body>
+
+</html>
+
+<script type="text/javascript" src="../jscript/script.js"></script>
+
+<script type = "text/javascript" >
+   function preventBack(){window.history.forward();}
+    setTimeout("preventBack()", 0);
+    window.onunload=function(){null};
+</script>

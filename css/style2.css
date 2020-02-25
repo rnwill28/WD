@@ -1,0 +1,112 @@
+body{
+	margin-top: 100px;
+	margin-bottom: 100px;
+	margin-right: 100px;
+	margin-left: 100px;
+	border: 15px inset #578af7;
+	padding: 50px;
+	text-align:center;
+	background-color:powderblue;
+    }
+
+input {
+    	color:blue;
+	margin:5px;
+    }
+.css-input {
+	padding: 3px 7px 3px 7px;
+	font-size: 16px;
+	border-width: 1.5px;
+	border-color: #069bff;
+	background-color: #9db5c4;
+	color: #000000;
+	border-style: inset;
+	border-radius: 50px;
+	box-shadow: 0px 0px 5px rgba(66,66,66,.75);
+	text-shadow: 0px 0px 0px rgba(66,66,66,.75);
+}
+ 
+.css-input:focus {
+        background:linear-gradient(#99c1f2 5%, #ffffff 100%);
+	background-color:#99c1f2;
+	outline:none;
+}
+
+.css-input:hover {	
+        box-shadow: 0px 0px 6px rgba(66,66,66,.75);
+	background:linear-gradient(#99c1f2 5%, #ffffff 100%);
+	background-color:#99c1f2;
+}
+
+.input{
+	font-size: 16px;
+	font-style: bold;
+	color: #000000;
+	text-shadow: 0px 0px 3px rgba(66,66,66,.75);
+	}
+
+.img {
+  border: 2px solid #069bff;
+  border-radius: 50%;
+}
+
+.img:hover {
+  box-shadow: 0 0 3px 2px rgba(6, 155, 255, 0.5);
+}
+
+input[type="submit"] {
+	box-shadow: 0px 0px 0px 0px #9fb4f2;
+	background:linear-gradient(to bottom, #005d9c 5%, #069bff 100%);
+	background-color:#005d9c;
+	border-radius:10px;
+	border:1.5px solid #4e6096;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:16px;
+	padding:8px 36px;
+	text-decoration:none;
+	text-shadow:0px 0px 0px #283966;
+	cursor: pointer;
+}
+
+input[type="submit"]:hover,
+input[type="submit"]:focus
+{
+	background:linear-gradient(to top, #476e9e 5%, #028ce8 100%);
+	background-color:#476e9e;
+	transition: 0.2s ease;
+}
+
+.button {
+	box-shadow: 0px 0px 0px 0px #9fb4f2;
+	background:linear-gradient(to bottom, #005d9c 5%, #069bff 100%);
+	background-color:#005d9c;
+	border-radius:10px;
+	border:1.5px solid #4e6096;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:16px;
+	padding:8px 36px;
+	text-decoration:none;
+	text-shadow:0px 0px 0px #283966;
+	cursor: pointer;
+}
+
+.button:hover
+{
+	background:linear-gradient(to top, #476e9e 5%, #028ce8 100%);
+	background-color:#476e9e;
+	transition: 0.2s ease;
+}
+
+	
+
+
+.button:active {
+	position:relative;
+	top:2px;
+}
