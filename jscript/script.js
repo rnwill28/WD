@@ -4,12 +4,14 @@ var userName = document.getElementById("userName").value;
 var psWrd = document.getElementById("password").value;
 
 	if(userName == "pusa" && psWrd == "mayor") {
-		window.location.href = "../html/resume.html";
+		return;
 		document.getElementById("userName").reset();
 	} else if ( userName == "" || psWrd == "") {
 		alert("Login failed, do not leave Username or Password blank");
+		return false;
 	} else {
 		alert("Incorrect Username or Password");
+		return false;
 	}
 }
 

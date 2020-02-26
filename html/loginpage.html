@@ -4,19 +4,23 @@
  <link rel="stylesheet" type="text/css" href="../css/style2.css">
  <title>Login Page</title>
 </head>
-<h1>Pusa ni Yorme</h1>
 
  <body>
+	<div id="login-box">
+	<img src="../images/Cat03.jpg" alt="Pusa ni Yorme" width="100" height="100" class="img">
+		<h1>Pusa ni Yorme</h1>			
 
-  <img src="../images/Cat03.jpg" alt="Pusa ni Yorme width="250" height="250" class="img"><br>    
+			<form action="../html/resume.html" onsubmit="return valUser()" >
+			<p>Username</p>
+				<input type="text" name="Username" placeholder="Username" id="userName"/>
+			<p>Password</p>
+				<input type="password" name="Password" placeholder="Password" id="password"/>
+				<input type="submit" name="login" value="Login" />
+			</form>
+	</div>
 
-  <form class="input">
-  Username:
-     <input type="text" name="Username" placeholder="Username" class="css-input" id="userName" /><br>
-  Password :
-     <input type="password" name="Password" placeholder="Password" class="css-input" id="password"/>
-  </form>
-     <input type="submit" name="login" value="Login" onclick="valUser()"/>
+  
+     
 
   </body>
 
