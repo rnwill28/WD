@@ -29,7 +29,7 @@ if(isset($_POST['login']))
 	<img src="../images/Cat03.jpg" alt="Pusa ni Yorme" width="100" height="100" class="img">
 		<h1>Pusa ni Yorme</h1>			
 
-			<form method="post">
+			<form action="" method="post">
 			<p>Username</p>
 				<input type="text" name="Username" placeholder="Username" id="userName" autocomplete="off" required/>
 			<p>Password</p>
