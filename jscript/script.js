@@ -15,6 +15,10 @@ var psWrd = document.getElementById("password").value;
 	}
 }
 
+function Github()
+{
+	window.open("https://github.com/rnwill28");
+}
 function activity(){
 	window.location.href = "../html/activitypage.html";
 }
