@@ -23,7 +23,7 @@ function activity(){
 	window.location.href = "../html/activitypage.html";
 }
 function logOut(){
-	window.location.href = "../php/login.php";
+	window.location.href = "../php/logout.php";
 }
 
 function Add(){
